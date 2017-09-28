@@ -53,7 +53,7 @@ def download_core():
     write_output("Downloading core..")
 
     try:
-        data = get_data("http://lolupdater.com/downloads/MOBASuite.exe")
+        data = get_data("http://lolupdater.com/downloads/MOBAUpdater.exe")
         with open("core.exe", "wb") as core_exe:
             core_exe.write(data)
         
